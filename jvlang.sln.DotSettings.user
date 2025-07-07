@@ -1,3 +1,15 @@
 ﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=7afd79ca_002D85a0_002D463f_002D9477_002D38694889d4c9/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="CliTests" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;NUnit3x::82E7EFD1-1E3E-4B3A-A8E7-BCEDD081FA33::net9.0::JVLang.Tests.CliTests&lt;/TestId&gt;
+    &lt;TestId&gt;NUnit3x::82E7EFD1-1E3E-4B3A-A8E7-BCEDD081FA33::net9.0::JVLang.Tests.LexerTests&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=ef59d0f2_002Db81c_002D474f_002Dbee8_002D97ed807a426f/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="CliTests #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;NUnit3x::82E7EFD1-1E3E-4B3A-A8E7-BCEDD081FA33::net9.0::JVLang.Tests.CliTests&lt;/TestId&gt;
+    &lt;TestId&gt;NUnit3x::82E7EFD1-1E3E-4B3A-A8E7-BCEDD081FA33::net9.0::JVLang.Tests.LexerTests&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
 	
 	<s:Boolean x:Key="/Default/UserDictionary/Words/=jvlang/@EntryIndexedValue">True</s:Boolean></wpf:ResourceDictionary>

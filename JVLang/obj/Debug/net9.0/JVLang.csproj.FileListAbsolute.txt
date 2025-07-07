@@ -1,0 +1,14 @@
+/home/joao/Projetos/jvlang/JVLang/bin/Debug/net9.0/JVLang
+/home/joao/Projetos/jvlang/JVLang/bin/Debug/net9.0/JVLang.deps.json
+/home/joao/Projetos/jvlang/JVLang/bin/Debug/net9.0/JVLang.runtimeconfig.json
+/home/joao/Projetos/jvlang/JVLang/bin/Debug/net9.0/JVLang.dll
+/home/joao/Projetos/jvlang/JVLang/bin/Debug/net9.0/JVLang.pdb
+/home/joao/Projetos/jvlang/JVLang/obj/Debug/net9.0/JVLang.GeneratedMSBuildEditorConfig.editorconfig
+/home/joao/Projetos/jvlang/JVLang/obj/Debug/net9.0/JVLang.AssemblyInfoInputs.cache
+/home/joao/Projetos/jvlang/JVLang/obj/Debug/net9.0/JVLang.AssemblyInfo.cs
+/home/joao/Projetos/jvlang/JVLang/obj/Debug/net9.0/JVLang.csproj.CoreCompileInputs.cache
+/home/joao/Projetos/jvlang/JVLang/obj/Debug/net9.0/JVLang.dll
+/home/joao/Projetos/jvlang/JVLang/obj/Debug/net9.0/refint/JVLang.dll
+/home/joao/Projetos/jvlang/JVLang/obj/Debug/net9.0/JVLang.pdb
+/home/joao/Projetos/jvlang/JVLang/obj/Debug/net9.0/JVLang.genruntimeconfig.cache
+/home/joao/Projetos/jvlang/JVLang/obj/Debug/net9.0/ref/JVLang.dll
