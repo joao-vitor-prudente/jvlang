@@ -1,0 +1,6 @@
+int x = 4.5;
+str y = "salve";
+
+if (x >= 4 and y == "salve") {
+    print("salve");
+}
