@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("JVLang")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f422eca466b18d8998aeb18edb62a08d865f6053")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+adce4e905a1a5f321610bfccdd54495b9b4d6a83")]
 [assembly: System.Reflection.AssemblyProductAttribute("JVLang")]
 [assembly: System.Reflection.AssemblyTitleAttribute("JVLang")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
