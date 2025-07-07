@@ -10,12 +10,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("jvlang")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("tests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9e5f0c7911cb91ba7d0a6edc5af602ca51ff9a62")]
-[assembly: System.Reflection.AssemblyProductAttribute("jvlang")]
-[assembly: System.Reflection.AssemblyTitleAttribute("jvlang")]
+[assembly: System.Reflection.AssemblyProductAttribute("tests")]
+[assembly: System.Reflection.AssemblyTitleAttribute("tests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Gerado pela classe WriteCodeFragment do MSBuild.

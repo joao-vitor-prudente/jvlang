@@ -15,12 +15,12 @@ public class Cli(string[] args)
 {
     private string FileName => args.Length > 0 ? args[0] : throw new FileNotProvidedException(args);
 
-    public string ReadFile()
+    public char[] ReadFile()
     {
         if (!File.Exists(FileName)) throw new ProvidedFileNotFoundException(FileName);
         try
         {
-            return File.ReadAllText(FileName);
+            return File.ReadAllText(FileName).ToCharArray();
         }
         catch (Exception e)
         {
