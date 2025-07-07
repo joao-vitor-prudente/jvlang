@@ -11,6 +11,11 @@ public abstract class Token
     {
         return GetType() == obj?.GetType();
     }
+
+    public override int GetHashCode()
+    {
+        return GetType().GetHashCode();
+    }
 }
 
 public abstract class ControlToken : Token;
@@ -18,17 +23,22 @@ public abstract class ControlToken : Token;
 public abstract class OperatorToken : Token;
 
 public abstract class ValueToken(string value) : Token
-{
-    public string Value { get; set; } = value;
+{ 
+    private string Value { get; init; } = value;
 
     public override string ToString()
     {
-        return $"{base.ToString()}({value})";
+        return $"{base.ToString()}({Value})";
     }
 
     public override bool Equals(object? obj)
     {
         return obj is ValueToken token && GetType() == obj?.GetType() && token.Value == Value;
+    }
+
+    public override int GetHashCode()
+    {
+        return HashCode.Combine(GetType(), Value);
     }
 }
 

@@ -7,9 +7,9 @@
 /home/joao/Projetos/jvlang/JVLang/obj/Debug/net9.0/JVLang.AssemblyInfoInputs.cache
 /home/joao/Projetos/jvlang/JVLang/obj/Debug/net9.0/JVLang.AssemblyInfo.cs
 /home/joao/Projetos/jvlang/JVLang/obj/Debug/net9.0/JVLang.csproj.CoreCompileInputs.cache
+/home/joao/Projetos/jvlang/JVLang/obj/Debug/net9.0/JVLang.sourcelink.json
 /home/joao/Projetos/jvlang/JVLang/obj/Debug/net9.0/JVLang.dll
 /home/joao/Projetos/jvlang/JVLang/obj/Debug/net9.0/refint/JVLang.dll
 /home/joao/Projetos/jvlang/JVLang/obj/Debug/net9.0/JVLang.pdb
 /home/joao/Projetos/jvlang/JVLang/obj/Debug/net9.0/JVLang.genruntimeconfig.cache
 /home/joao/Projetos/jvlang/JVLang/obj/Debug/net9.0/ref/JVLang.dll
-/home/joao/Projetos/jvlang/JVLang/obj/Debug/net9.0/JVLang.sourcelink.json

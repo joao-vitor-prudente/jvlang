@@ -1,10 +1,5 @@
 /home/joao/Projetos/jvlang/JVLang.Tests/bin/Debug/net9.0/.msCoverageSourceRootsMapping_JVLang.Tests
 /home/joao/Projetos/jvlang/JVLang.Tests/bin/Debug/net9.0/CoverletSourceRootsMapping_JVLang.Tests
-/home/joao/Projetos/jvlang/JVLang.Tests/obj/Debug/net9.0/JVLang.Tests.csproj.AssemblyReference.cache
-/home/joao/Projetos/jvlang/JVLang.Tests/obj/Debug/net9.0/JVLang.Tests.GeneratedMSBuildEditorConfig.editorconfig
-/home/joao/Projetos/jvlang/JVLang.Tests/obj/Debug/net9.0/JVLang.Tests.AssemblyInfoInputs.cache
-/home/joao/Projetos/jvlang/JVLang.Tests/obj/Debug/net9.0/JVLang.Tests.AssemblyInfo.cs
-/home/joao/Projetos/jvlang/JVLang.Tests/obj/Debug/net9.0/JVLang.Tests.csproj.CoreCompileInputs.cache
 /home/joao/Projetos/jvlang/JVLang.Tests/bin/Debug/net9.0/JVLang.deps.json
 /home/joao/Projetos/jvlang/JVLang.Tests/bin/Debug/net9.0/JVLang.runtimeconfig.json
 /home/joao/Projetos/jvlang/JVLang.Tests/bin/Debug/net9.0/JVLang
@@ -97,6 +92,12 @@
 /home/joao/Projetos/jvlang/JVLang.Tests/bin/Debug/net9.0/zh-Hant/Microsoft.VisualStudio.TestPlatform.Common.resources.dll
 /home/joao/Projetos/jvlang/JVLang.Tests/bin/Debug/net9.0/JVLang.dll
 /home/joao/Projetos/jvlang/JVLang.Tests/bin/Debug/net9.0/JVLang.pdb
+/home/joao/Projetos/jvlang/JVLang.Tests/obj/Debug/net9.0/JVLang.Tests.csproj.AssemblyReference.cache
+/home/joao/Projetos/jvlang/JVLang.Tests/obj/Debug/net9.0/JVLang.Tests.GeneratedMSBuildEditorConfig.editorconfig
+/home/joao/Projetos/jvlang/JVLang.Tests/obj/Debug/net9.0/JVLang.Tests.AssemblyInfoInputs.cache
+/home/joao/Projetos/jvlang/JVLang.Tests/obj/Debug/net9.0/JVLang.Tests.AssemblyInfo.cs
+/home/joao/Projetos/jvlang/JVLang.Tests/obj/Debug/net9.0/JVLang.Tests.csproj.CoreCompileInputs.cache
+/home/joao/Projetos/jvlang/JVLang.Tests/obj/Debug/net9.0/JVLang.Tests.sourcelink.json
 /home/joao/Projetos/jvlang/JVLang.Tests/obj/Debug/net9.0/JVLang.T.A6A4355E.Up2Date
 /home/joao/Projetos/jvlang/JVLang.Tests/obj/Debug/net9.0/JVLang.Tests.dll
 /home/joao/Projetos/jvlang/JVLang.Tests/obj/Debug/net9.0/refint/JVLang.Tests.dll
