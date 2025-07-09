@@ -23,10 +23,11 @@ public class Lexer(char[] input)
     }
 
 
-    private void HandleMultiCharOperator(char secondChar, OperatorToken bothOp, OperatorToken onlyOneOp)
+    private void HandleMultiCharOperator(char secondChar, OperatorToken bothOp, OperatorToken? onlyOneOp)
     {
         if (NextChar != secondChar)
         {
+            if (onlyOneOp is null) throw new Exception("Invalid operator");
             _tokens.Add(onlyOneOp);
             return;
         }
@@ -45,13 +46,13 @@ public class Lexer(char[] input)
             {
                 case char c when String.StartCondition(c):
                     _currentIndex++;
-                    HandleValue(s => new String(s), String.EndCondition);
+                    HandleValue(v => new String(v), String.EndCondition);
                     break;
                 case char c when Number.StartCondition(c):
-                    HandleValue(s => new Number(s), Number.EndCondition);
+                    HandleValue(v => new Number(v), Number.EndCondition);
                     break;
                 case char c when Symbol.StartCondition(c):
-                    HandleValue(s => new Symbol(s), Symbol.EndCondition);
+                    HandleValue(v => Keyword.IsKeyword(v) ? new Keyword(v) : new Identifier(v), Symbol.EndCondition);
                     break;
                 case '=':
                     HandleMultiCharOperator('=', new Equal(), new Assign());
@@ -64,6 +65,12 @@ public class Lexer(char[] input)
                     break;
                 case '!':
                     HandleMultiCharOperator('=', new NotEqual(), new Not());
+                    break;
+                case '&':
+                    HandleMultiCharOperator('&', new And(), null);
+                    break;
+                case '|':
+                    HandleMultiCharOperator('|', new Or(), null);
                     break;
                 case ',':
                     _tokens.Add(new Comma());

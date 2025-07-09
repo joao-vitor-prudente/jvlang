@@ -23,8 +23,8 @@ public abstract class ControlToken : Token;
 public abstract class OperatorToken : Token;
 
 public abstract class ValueToken(string value) : Token
-{ 
-    private string Value { get; init; } = value;
+{
+    private string Value { get; } = value;
 
     public override string ToString()
     {
@@ -84,6 +84,10 @@ public class GreaterThanOrEqual : OperatorToken;
 
 public class Not : OperatorToken;
 
+public class And : OperatorToken;
+
+public class Or : OperatorToken;
+
 public class String(string value) : ValueToken(value)
 {
     public static bool StartCondition(char c)
@@ -110,7 +114,7 @@ public class Number(string value) : ValueToken(value)
     }
 }
 
-public class Symbol(string value) : ValueToken(value)
+public abstract class Symbol(string value) : ValueToken(value)
 {
     public static bool StartCondition(char c)
     {
@@ -120,5 +124,17 @@ public class Symbol(string value) : ValueToken(value)
     public static bool EndCondition(char c)
     {
         return !StartCondition(c);
+    }
+}
+
+public class Identifier(string value) : Symbol(value);
+
+public class Keyword(string value) : Symbol(value)
+{
+    private static readonly string[] Keywords = ["while", "if", "else", "int", "str", "bool"];
+
+    public static bool IsKeyword(string value)
+    {
+        return Keywords.Contains(value);
     }
 }
